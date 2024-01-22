@@ -111,3 +111,41 @@ forge fmt
 ```
 slither :; slither . --config-file slither.config.json
 ```
+
+# Push To GitHub
+
+1. Save changes
+
+```
+git add .
+```
+
+2. See all changes
+
+```
+git status
+```
+
+3. Log in your GitHub Profile
+
+```
+git log
+```
+
+4. Commit changes
+
+```
+git commit -m 'Initial Create'
+```
+
+5. Choose a project to push your protocol
+
+```
+git remote add origin https://github.com/Dav1dStefanow/foundry-stable-coin-f23.git
+```
+
+6. Push command
+
+```
+git push -u origin master/main
+```
